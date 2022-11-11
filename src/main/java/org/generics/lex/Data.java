@@ -13,6 +13,10 @@ public class Data {
         list.add(new Record<String>(3, "Rohan"));
     }
 
+    public static Record<?> getRecord(int index){
+        return list.get(index);
+    }
+
     public static void insertRecord(Record<?> record) {
         list.add(record);
     }

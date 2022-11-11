@@ -18,8 +18,5 @@ public class Test {
             System.out.println(record.genericObject);
         }
 
-
-
-
     }
 }

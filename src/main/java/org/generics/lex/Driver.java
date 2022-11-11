@@ -24,6 +24,9 @@ public class Driver {
         Data.updateRecord(record);
         Data.showAll();
 
+        Record<?> record2 = Data.getRecord(2);
+        System.out.println("Record: " + record);
+
         Student student01 = new DayScholar("Mohan");
         Record<Student> record1 = new Record<>(5, student01);
         Data.insertRecord(record1);

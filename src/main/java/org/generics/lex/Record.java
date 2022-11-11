@@ -28,4 +28,9 @@ public class Record<T> {
     public void setType(T type) {
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return type.toString();
+    }
 }
