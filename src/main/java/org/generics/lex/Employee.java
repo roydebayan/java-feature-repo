@@ -4,7 +4,6 @@ public class Employee {
 
     final private String company;
 
-
     public Employee(String company) {
         this.company = company;
     }
